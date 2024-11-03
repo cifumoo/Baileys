@@ -73,7 +73,7 @@ export enum QueryIds {
 
 import { decryptMessageNode, generateMessageID, generateProfilePicture } from '../Utils'
 import { BinaryNode, getAllBinaryNodeChildren, getBinaryNodeChild, getBinaryNodeChildren, S_WHATSAPP_NET } from '../WABinary'
-import { SocketConfig } from '../Types'
+import { SocketConfig, WAMediaUpload } from '../Types'
 import { makeGroupsSocket } from './groups'
 
 export const makeNewsletterSocket = (config: SocketConfig) => {
